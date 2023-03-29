@@ -1,0 +1,259 @@
+body a{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    text-decoration: none;
+}
+
+.head{
+    height: 48px;
+    padding : 6px;
+    
+}
+
+.links{
+    color: black;
+    position : absolute;
+    height: 48px;
+    width: 180px;
+    top: 15px;
+    right: 5px;
+    bottom: 10px;
+}
+
+.link1{
+    padding-right: 10px;
+}
+
+.mid{
+    height: 176px;
+}
+
+.search{
+    height: 160px;
+    padding:20px;
+}
+
+.search-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 24px;
+    width: auto;
+    max-width: 584px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.search-input-text{
+    width: 560px;
+    height: 39px;
+    padding: 5px 8px 0px 14px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+
+.search-sym{
+    position: relative;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-top: 8px;
+    margin-bottom: 9px;
+}
+
+.query{
+    position: relative;
+    left: 30px;
+    height: 34px;
+    width: 443.4px;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap:break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    font-size: 16px;
+}
+
+.search-buttons{
+    padding-top: 16px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-bar{
+    display: block;
+    text-align: -webkit-center;
+    height: 54px;
+    width: auto;
+}
+
+.google-search-button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.feeling-lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*advanced search styles*/
+
+.adv-heading{
+    height: 23.2px;
+    margin: 25px 35px 25px 35px;
+    color: #d93025;
+    font-size: 20px;
+    font-weight: inherit;
+    vertical-align: baseline;
+}
+
+.borderline{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.main{
+    max-width: 1140px;
+    min-height: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.tableheads{
+    display: table-cell;
+    height: 30px;
+    font-weight: inherit;
+    font-size: 100%;
+}
+
+.blank-space{
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.headline1{
+    display: inline-block;
+    color: #333;
+    font-size: 16px;
+}
+
+.headline2{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+}
+
+.wrapper1{
+    float: left;
+    vertical-align: middle;
+    min-width: 167px;
+    min-height: 42px;
+    height: 42px;
+}
+.label-container{
+    width: 100%;
+    clear: both;
+    height: 200px;
+}
+
+.input-row{
+    clear: both;
+}
+
+.headline3{
+    float: left;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    vertical-align: middle;
+    min-width: 167px;
+    width: 16%;
+}
+
+.input-container{
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.input-wrapper{
+    padding-right: 16px;
+}
+
+.adv-query{
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    width: 100%;
+    text-align: left;
+}
+
+.lable2-container{
+    float: left;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.adv-button{
+    height: 30px;
+    min-width: 120px;
+    float: right;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+}
